@@ -15,7 +15,7 @@ namespace AppMonterrey.Controllers
             SqlConnection cn = null;
             SqlCommand cmd = null;
             List<Persona> lista = null;
-            //Demo
+            //Demo 02
 
             var sConexion = "Server=JPEREZ;Database=Monterrey;Trusted_Connection=True;";
             using (cn = new SqlConnection(sConexion)) {
