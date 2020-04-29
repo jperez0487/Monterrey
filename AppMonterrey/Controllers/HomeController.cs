@@ -19,6 +19,8 @@ namespace AppMonterrey.Controllers
 
             //DEmo0334
 
+            //Comentario Rama2
+
             var sConexion = "Server=JPEREZ;Database=Monterrey;Trusted_Connection=True;";
             using (cn = new SqlConnection(sConexion)) {
                 using (cmd = new SqlCommand()) {
